@@ -2,27 +2,31 @@
   "app": "M.O.S.S.",
   "about": "Read by the M.O.S.S. RPi SD Card Creator (and later the dash) to find the newest signed release.",
   "moss": {
-    "version": "2.5.6",
-    "date": "2026-11-04",
+    "version": "2.5.7",
+    "date": "2026-11-05",
     "zip": {
-      "name": "MOSS-2.5.6.zip",
-      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.6/MOSS-2.5.6.zip",
-      "size": 64410762,
-      "sha256": "2e8e90763ef502b003918753e35a62e9c190e549650f4e82ed84b7ae2814c217"
+      "name": "MOSS-2.5.7.zip",
+      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.7/MOSS-2.5.7.zip",
+      "size": 64228558,
+      "sha256": "11d74cf47f8eddb1f29b8cafb9dadc3a815e57c991aef075390026cbf9d45d5a"
     },
     "creator_mac": {
-      "name": "MOSS-SD-Card-Creator-2.5.6.zip",
-      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.6/MOSS-SD-Card-Creator-2.5.6.zip",
-      "size": 67736220,
-      "sha256": "674a6489ee1dd1ee4369fc3d17992a5e934b94a3e5486e1396396a83426c8fcb"
+      "name": "MOSS-SD-Card-Creator-2.5.7.zip",
+      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.7/MOSS-SD-Card-Creator-2.5.7.zip",
+      "size": 67563027,
+      "sha256": "97b7833a9fb41424e47f3ed3404d45c04d6fdeaab56ba61b93be890d9ad81c1d"
     },
     "raspios": "2026-10-06-raspios-trixie-arm64-lite.img.xz",
-    "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.6",
+    "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.7",
     "notes": [
-      "Ctrl+Q is the one key for SHUT DOWN? on the Pi",
-      "The install retries the Wi-Fi on every band and logs why to moss-wifi.log",
-      "Parts carts swapped to in-stock parts",
-      "A Boards and Revisions page in both guides"
+      "USB stick, COPY ALL",
+      "M.O.S.S. releases go public on projectmoonpi/moss-releases",
+      "SD Card Creator, the release",
+      "raspios-tested.json",
+      "SD Card Creator, the header",
+      "SD Card Creator, Raspberry Pi OS",
+      "SD Card Creator, macOS",
+      "tools/sdcard/test_checks.py"
     ]
   }
 }
