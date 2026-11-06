@@ -2,31 +2,44 @@
   "app": "M.O.S.S.",
   "about": "Read by the M.O.S.S. RPi SD Card Creator (and later the dash) to find the newest signed release.",
   "moss": {
-    "version": "2.5.7",
+    "version": "2.5.8",
     "date": "2026-11-05",
     "zip": {
-      "name": "MOSS-2.5.7.zip",
-      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.7/MOSS-2.5.7.zip",
-      "size": 64228558,
-      "sha256": "11d74cf47f8eddb1f29b8cafb9dadc3a815e57c991aef075390026cbf9d45d5a"
+      "name": "MOSS-2.5.8.zip",
+      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.8/MOSS-2.5.8.zip",
+      "size": 66343166,
+      "sha256": "2738809338b4c41f7e269fd770e232eba285ed44c397adfad6f68c2f88f3ac38"
     },
     "creator_mac": {
-      "name": "MOSS-SD-Card-Creator-2.5.7.zip",
-      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.7/MOSS-SD-Card-Creator-2.5.7.zip",
-      "size": 67563027,
-      "sha256": "97b7833a9fb41424e47f3ed3404d45c04d6fdeaab56ba61b93be890d9ad81c1d"
+      "name": "MOSS-SD-Card-Creator-2.5.8.zip",
+      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.8/MOSS-SD-Card-Creator-2.5.8.zip",
+      "size": 69682879,
+      "sha256": "0132e74db896798aa9d7a7b8df4a8ffd9fe0f37fd42e61e1c2281fef50afd834"
     },
     "raspios": "2026-10-06-raspios-trixie-arm64-lite.img.xz",
-    "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.7",
+    "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.8",
     "notes": [
-      "USB stick, COPY ALL",
-      "M.O.S.S. releases go public on projectmoonpi/moss-releases",
-      "SD Card Creator, the release",
-      "raspios-tested.json",
-      "SD Card Creator, the header",
-      "SD Card Creator, Raspberry Pi OS",
-      "SD Card Creator, macOS",
-      "tools/sdcard/test_checks.py"
+      "The name is moss-dash, everywhere",
+      "SD Card Creator, its version shown",
+      "SD Card Creator, macOS's permission for the card",
+      "The Pi's name is moss-dash",
+      "Updates you can back out of",
+      "SD Card Creator, an older M.O.S.S. if needed",
+      "The Pi's bootloader, kept up to date",
+      "The project's GitHub address, everywhere"
     ]
-  }
+  },
+  "versions": [
+    {
+      "version": "2.5.8",
+      "date": "2026-11-05",
+      "zip": {
+        "name": "MOSS-2.5.8.zip",
+        "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.8/MOSS-2.5.8.zip",
+        "size": 66343166,
+        "sha256": "2738809338b4c41f7e269fd770e232eba285ed44c397adfad6f68c2f88f3ac38"
+      },
+      "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.8"
+    }
+  ]
 }
