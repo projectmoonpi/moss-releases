@@ -16,7 +16,8 @@ and guides are published.
 | **The User and Installation Guide** | **[MOSS-guide-screen.pdf](https://github.com/projectmoonpi/moss-releases/releases/latest/download/MOSS-guide-screen.pdf)** (for reading on a screen) · [print version](https://github.com/projectmoonpi/moss-releases/releases/latest/download/MOSS-guide.pdf) |
 | **The Board Assembly Guide** | **[MOSS-assembly-guide-screen.pdf](https://github.com/projectmoonpi/moss-releases/releases/latest/download/MOSS-assembly-guide-screen.pdf)** · [print version](https://github.com/projectmoonpi/moss-releases/releases/latest/download/MOSS-assembly-guide.pdf) |
 
-Every release is on the [Releases page](https://github.com/projectmoonpi/moss-releases/releases).
+The newest release and the two before it are kept on the [Releases page](https://github.com/projectmoonpi/moss-releases/releases),
+in case a new release has a problem with your machine. **The newest is the one to use.**
 
 ## Make a card
 
@@ -25,8 +26,9 @@ Every release is on the [Releases page](https://github.com/projectmoonpi/moss-re
    click **Done**, open **System Settings › Privacy & Security**, scroll down and click **Open Anyway**.
 3. Follow its pages. It checks the Mac first and walks you through anything that needs fixing, then makes the card.
 
-The card gets the Raspberry Pi OS that M.O.S.S. has been tested on (named in each release), unless you choose a
-newer one.
+The card gets the newest M.O.S.S. (recommended) unless you choose one of the two before it on the card creator's
+**Which version of M.O.S.S.?** page, and the Raspberry Pi OS that version has been tested on (named in each
+release), unless you choose a newer one.
 
 ## Update a dash
 
@@ -40,7 +42,7 @@ a release that's signed and unchanged.
 ## For software: latest.json
 
 [`latest.json`](latest.json) names the newest release, its files, their SHA-256 and the Raspberry Pi OS it's tested
-on. The SD Card Creator reads it to fetch the newest release when it has none, or an older one. Whatever it fetches is
+on, and lists the releases kept (`versions`: the newest and the two before it). The SD Card Creator reads it to fetch the newest release when it has none, or an older one. Whatever it fetches is
 still checked against the project's signing key before it goes on a card.
 
 ## Credits
