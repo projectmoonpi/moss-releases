@@ -2,32 +2,44 @@
   "app": "M.O.S.S.",
   "about": "Read by the M.O.S.S. RPi SD Card Creator (and later the dash) to find the newest signed release.",
   "moss": {
-    "version": "2.5.9",
+    "version": "2.5.10",
     "date": "2026-11-06",
     "zip": {
-      "name": "MOSS-2.5.9.zip",
-      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.9/MOSS-2.5.9.zip",
-      "size": 66374106,
-      "sha256": "477c352e591815e51999255322226234e3d9bf82561caea568267c621706fdb4"
+      "name": "MOSS-2.5.10.zip",
+      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.10/MOSS-2.5.10.zip",
+      "size": 66429529,
+      "sha256": "94ff0104251cbe6a383884475a7449ff9d90c9ddda2357f86714e4f6c470ed49"
     },
     "creator_mac": {
-      "name": "MOSS-SD-Card-Creator-2.5.9.zip",
-      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.9/MOSS-SD-Card-Creator-2.5.9.zip",
-      "size": 69712469,
-      "sha256": "5cd948a61de78161657ac3ffcbfa7274d9817f6f59efce8ed9e23bd4fcbb6e3e"
+      "name": "MOSS-SD-Card-Creator-2.5.10.zip",
+      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.10/MOSS-SD-Card-Creator-2.5.10.zip",
+      "size": 69766766,
+      "sha256": "c3e2feecffb065f586f4cd8ae586025c810a0c1a83bfe8c7378f1d11824fe5aa"
     },
     "raspios": "2026-10-06-raspios-trixie-arm64-lite.img.xz",
-    "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.9",
+    "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.10",
     "notes": [
-      "SD Card Creator for Windows, the groundwork",
-      "SD Card Creator, the files it puts on a card",
-      "S.M.B.B., a fourth way to have it made",
-      "S.M.B.B. for JLCPCB",
-      "S.M.B.B. BOMs, a note for the board house",
-      "Credits"
+      "Engine choice for the other 700-series loaders",
+      "Help by email",
+      "First start in order",
+      "USB pill over tall pop-ups",
+      "S.M.B.B., two versions",
+      "SD Card Creator, Python",
+      "SD Card Creator on Windows, its log"
     ]
   },
   "versions": [
+    {
+      "version": "2.5.10",
+      "date": "2026-11-06",
+      "zip": {
+        "name": "MOSS-2.5.10.zip",
+        "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.10/MOSS-2.5.10.zip",
+        "size": 66429529,
+        "sha256": "94ff0104251cbe6a383884475a7449ff9d90c9ddda2357f86714e4f6c470ed49"
+      },
+      "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.10"
+    },
     {
       "version": "2.5.9",
       "date": "2026-11-06",
