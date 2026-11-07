@@ -2,36 +2,60 @@
   "app": "M.O.S.S.",
   "about": "Read by the M.O.S.S. RPi SD Card Creator (and later the dash) to find the newest signed release.",
   "moss": {
-    "version": "2.5.10",
-    "date": "2026-11-06",
+    "version": "2.5.11",
+    "date": "2026-11-07",
     "zip": {
-      "name": "MOSS-2.5.10.zip",
-      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.10/MOSS-2.5.10.zip",
-      "size": 66429529,
-      "sha256": "94ff0104251cbe6a383884475a7449ff9d90c9ddda2357f86714e4f6c470ed49"
+      "name": "MOSS-2.5.11.zip",
+      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.11/MOSS-2.5.11.zip",
+      "size": 68253361,
+      "sha256": "c45352f9c0d54d6fddcae6c3b4f20efc397c78ecc5bf6ebf3f08528785c2995e"
     },
     "creator_mac": {
-      "name": "MOSS-SD-Card-Creator-2.5.10.zip",
-      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.10/MOSS-SD-Card-Creator-2.5.10.zip",
-      "size": 69766766,
-      "sha256": "c3e2feecffb065f586f4cd8ae586025c810a0c1a83bfe8c7378f1d11824fe5aa"
+      "name": "MOSS-SD-Card-Creator-2.5.11.zip",
+      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.11/MOSS-SD-Card-Creator-2.5.11.zip",
+      "size": 71729403,
+      "sha256": "b2fedff529bc766b9ddc41b6833aaec7d7a4d19652a58e03c2f1fb606d22168b"
+    },
+    "creator_mac_dmg": {
+      "name": "MOSS-SD-Card-Creator-2.5.11-for-Mac.dmg",
+      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.11/MOSS-SD-Card-Creator-2.5.11-for-Mac.dmg",
+      "size": 74781076,
+      "sha256": "68d8d786d021915f5cc870875afd4b6119048e639bdf70dfdefef3f750535a07"
+    },
+    "creator_win": {
+      "name": "Install-MOSS-SD-Card-Creator-2.5.11-for-Windows.exe",
+      "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.11/Install-MOSS-SD-Card-Creator-2.5.11-for-Windows.exe",
+      "size": 71638451,
+      "sha256": "98f2633e56ed7b7a1ed0e71ccb7b9a69a21496f6703bc432a9e2b1684efdaab5"
     },
     "raspios": "2026-10-06-raspios-trixie-arm64-lite.img.xz",
-    "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.10",
+    "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.11",
     "notes": [
-      "Engine choice for the other 700-series loaders",
-      "Help by email",
-      "First start in order",
-      "USB pill over tall pop-ups",
-      "S.M.B.B., two versions",
-      "SD Card Creator, Python",
-      "SD Card Creator on Windows, its log"
+      "SYSTEM menu in a new order",
+      "GPS faults in plain words",
+      "NO GPS pill",
+      "Web page, Software: its buttons work again",
+      "Web page, Status: the board, and no GOOD without an engine to read",
+      "Web page, Configuration: the restart note clears once saved",
+      "No GO BACK to the same version",
+      "RPM x100 on the dial with a GPS"
     ]
   },
   "versions": [
     {
+      "version": "2.5.11",
+      "date": "2026-11-07",
+      "zip": {
+        "name": "MOSS-2.5.11.zip",
+        "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.11/MOSS-2.5.11.zip",
+        "size": 68253361,
+        "sha256": "c45352f9c0d54d6fddcae6c3b4f20efc397c78ecc5bf6ebf3f08528785c2995e"
+      },
+      "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.11"
+    },
+    {
       "version": "2.5.10",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "zip": {
         "name": "MOSS-2.5.10.zip",
         "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.10/MOSS-2.5.10.zip",
@@ -50,17 +74,6 @@
         "sha256": "477c352e591815e51999255322226234e3d9bf82561caea568267c621706fdb4"
       },
       "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.9"
-    },
-    {
-      "version": "2.5.8",
-      "date": "2026-11-06",
-      "zip": {
-        "name": "MOSS-2.5.8.zip",
-        "url": "https://github.com/projectmoonpi/moss-releases/releases/download/v2.5.8/MOSS-2.5.8.zip",
-        "size": 66343166,
-        "sha256": "2738809338b4c41f7e269fd770e232eba285ed44c397adfad6f68c2f88f3ac38"
-      },
-      "page": "https://github.com/projectmoonpi/moss-releases/releases/tag/v2.5.8"
     }
   ]
 }
